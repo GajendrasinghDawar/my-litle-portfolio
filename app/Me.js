@@ -47,7 +47,7 @@ const projects = [
         name: 'this website ',
         url: 'this-website',
         github: 'https://github.com/GajendrasinghDawar/my-website',
-        bg: 'linear(red.100 0%, orange.100 25%, yellow.100 50%)'
+        bg: 'linear(to-l, #7928CA, #FF0080)'
     },
 ]
 
@@ -69,8 +69,8 @@ export default function Me() {
                 h='100%'
                 // bg='rgb(17 17 17/1)'
                 className={inter.className}
-                borderRight='1px'
-                borderLeft={'1px'}
+                // borderRight='1px'
+                // borderLeft={'1px'}
             >
                 <VStack
 
@@ -153,6 +153,7 @@ export default function Me() {
                                         w='90%'
                                     >
                                         <Box
+
                                             // _hover={{
                                             //     transition: 'transform 0.15s ease-out, fontWeight 0.15s ease-out'
                                             // }}
@@ -182,7 +183,9 @@ export default function Me() {
                                                 padding={'8px'}
                                                 justifyContent={'space-between'}
                                             >
-                                                <Text>{project.name}</Text>
+                                                <Text
+
+                                                >{project.name}</Text>
 
                                                 <ExternalLinkIcon mx='2px' />
                                             </HStack>
