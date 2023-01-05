@@ -1,14 +1,14 @@
-import './globals.css'
-
+import MyChakraProvider from "./ChakraProvider"
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
-      <body>{children}</body>
+      <body>
+        <MyChakraProvider>
+          {children}
+        </MyChakraProvider>
+
+      </body>
     </html>
   )
 }
