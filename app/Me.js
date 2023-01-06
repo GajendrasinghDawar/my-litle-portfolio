@@ -143,6 +143,7 @@ export default function Me() {
                         return (
                             <>
                                 <HStack
+                                    p={2}
                                     width={'full'}
                                     textAlign='center'
                                     alignItems={'center'}
