@@ -5,10 +5,8 @@ const styles = {
     global: (props) => {
         return {
             body: {
-                bg: mode('rgb(255 255 255/1)', 'rgb(17 17 17/1)')(props),
-                // color: ' rgb(136 136 136/1)',
-                // color: 'rgb(17 17 17/1)',
-                color: mode('rgb(17 17 17/1)', 'rgb(136 136 136 / 1)')(props),
+                bg: mode('whiteAlpha.900', 'blackAlpha.900')(props),
+                color: mode('blackAlpha.800', 'whiteAlpha.500')(props),
                 lineHeight: "1.5",
                 letterSpacing: '1px'
             },
