@@ -1,5 +1,6 @@
-import Me from './Me'
 
 export default function Home() {
-  return <Me />
+  return <div>
+    new home
+  </div>
 }
